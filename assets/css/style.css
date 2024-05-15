@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #000000;
+}
+.container{
+    width: 80rem;
+}
+.logo h2 span{
+    color: #69B99D;
+}   
+header{
+    display: flex;
+    color: #000000;
+    width: auto;
+    height: 4rem;
+    justify-content: space-between;
+    align-items: center;
+}
+header a{
+    text-decoration: none;
+    color: #000000;
+}
+.logo img{
+    width: 8rem;
+}
+.menu ul{
+    display: flex;
+}
+.menu ul li{
+    margin: 10px 30px 10px 30px;
+    text-decoration: none;
+    list-style: none;
+}
+.line01,
+.line03,
+.line04{
+    display: flex;
+}
+.box-left,
+.box-right{
+    width: 40rem;
+    margin-top: 2rem;
+}
+.box-left h1{
+    font-size: calc(1.275rem + .3vw)!important;
+    color: #0dcaf0;
+}
+.box-left h1{
+    font-size: calc(1.625rem + 3.5vw);
+}
+.box-left h1 span,
+.box-left h2 span{
+    background: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 100%);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.box-left p{
+    color: rgb(108, 117, 125);
+}
+.box-left button,
+.row .col-left button{
+    width: 15rem;
+    height: 4rem;
+    background: -webkit-linear-gradient(90deg, rgba(13,202,240,1) 0%, rgba(2,198,210,1) 100%);
+    border: none;
+    color: #FFF;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 2rem;
+}
+.box-right{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
